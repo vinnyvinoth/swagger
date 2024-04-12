@@ -1,0 +1,9 @@
+{
+  "url": "https://vinothpentest.free.beeceptor.com/swagger.yaml",
+  "urls": [
+      {
+          "url": "https://vinothpentest.free.beeceptor.com/swagger.yaml",
+          "name": "Account"
+      }
+  ]
+}
