@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <h1>Random Test Value</h1><marquee>Scrolling Text</marquee>
+    Documentation for the Classic API.
 
 paths:
   /signin:
@@ -26,4 +26,5 @@ paths:
       tags:
         - signin
       operationId: Signin
-      summary: Signin
+      summary: |
+        <h1>Random Test Value</h1><marquee>Scrolling Text</marquee>
