@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src='https://avatars.githubusercontent.com/u/16441491?v=4'>"></form>
+    <h1>Random Test Value</h1><marquee>Scrolling Text</marquee>
 
 paths:
   /signin:
