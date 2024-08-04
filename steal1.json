@@ -1,8 +1,8 @@
 {
-  "url": "https://vinothpentest.free.beeceptor.com/steal.yaml",
+  "url": "https://raw.githubusercontent.com/vinnyvinoth/swagger/main/steal1.yaml",
   "urls": [
       {
-          "url": "https://vinothpentest.free.beeceptor.com/steal.yaml",
+          "url": "https://raw.githubusercontent.com/vinnyvinoth/swagger/main/steal1.yaml",
           "name": "Account"
       }
   ]
