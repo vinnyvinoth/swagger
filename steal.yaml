@@ -4,7 +4,7 @@ info:
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
-        <h1>HTML Injection : Fake Login</h1>
+        <marquee>HTML Injection : Fake Login</marquee>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
