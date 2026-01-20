@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/vinnyvinoth/swagger/main/swagger3.yaml",
+  "urls": [
+      {
+          "url": "https://raw.githubusercontent.com/vinnyvinoth/swagger/main/swagger3.yaml",
+          "name": "Account"
+      }
+  ]
+}
