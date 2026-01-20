@@ -1,0 +1,35 @@
+swagger: '2.0'
+info:
+  title: <h1>API Title</h1>
+  description: |
+    <marquee>Description Text</marquee>
+  version: "1.0.0"
+  
+paths:
+  /signin:
+    post:
+      summary: <h1>Signin Summary</h1>
+      description: |
+        <marquee>Signin Description</marquee>
+      parameters:
+        - name: Email
+          in: formData
+          required: true
+          type: string
+          description: <h1>Email Description</h1>
+        - name: password
+          in: formData
+          required: true
+          type: string
+          description: <marquee>Password Description</marquee>
+        - name: token
+          in: formData
+          required: true
+          type: string
+          description: <h1>Token Description</h1>
+      responses:
+        '200':
+          description: <marquee>Success Response Description</marquee>
+      tags:
+        - <h1>signin</h1>
+      operationId: <marquee>Signin Operation</marquee>
